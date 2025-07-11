@@ -79,3 +79,27 @@ padding: 150px 250px;
 #img{
     border-radius: 48px;
 }
+/* 2nd section */
+.productive{
+    max-width: 940px;
+    margin: 50px auto;
+    background-color:rgb(170, 213, 255);
+    border-radius: 20px;
+    padding: 100px;
+}
+
+.productive-user{
+    display: flex;
+     justify-content: space-around;
+     padding: -200px;
+}
+.productive-user-colum{
+
+}
+.productive-user-colum-velu{
+    font-size:80px; font-weight: 800;
+    color: #130ce7;
+}
+.productive > h1{ text-align: center;
+
+}
