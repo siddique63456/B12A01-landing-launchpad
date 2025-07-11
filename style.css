@@ -23,19 +23,25 @@
     cursor: auto;
     font-weight: bold; 
     font-size: 20px;
+         transition: 0.5s;
+
+}
+.buttone-primary:hover{
+    cursor: pointer;
+        background-color: rgb(216, 216, 12);
+        color: black; 
 }
 
 .header{
-max-width:1440px;
+   max-width: 1440px;
     background-image: url("../B12A01-landing-launchpad/Assets/Hero-bg.png");
     margin: 0px auto;
 }
 /* navication bar*/
 .navication{
-    margin: 50px auto;
-     display: flex;
+     display: flex;  
+       padding: 0 70px; gap: 16px;
 justify-content: space-between;
-padding: 10px 70px;
 }
 .nav-titel{
     color: #130ce7;
@@ -48,12 +54,13 @@ padding: 10px 70px;
 }
 /* banner */
 .banner{    text-align: center;
-    text-align: center;
-    
-padding: 150px 250px;}
+    width: 905px; height: 152px;
+    padding:0 250px; padding-bottom: 250px;
+}
+
 .banner > div > p{
     font-size: 65px;
-    font-weight:800;
+    font-weight:bold;
 } 
 /* 1st section */
 .action{
@@ -198,20 +205,4 @@ text-decoration: none;
 color: #757575;
   }
 
-  /*  HOVER  */
-  #button-hover{ text-align: center; margin: 100px auto;
-  }
-  #button-hover > button{
-    color: white;
-    background-color:rgb(28, 138, 248);
-    padding: 10px 20px;
-     border: none;
-     transition: 0.5s;
-     font-size:20px;
-  }
-    #button-hover > button:hover {cursor: pointer;
-        background-color: rgb(216, 216, 12); color: black; 
-    }
-  #buton-color:hover {
-    color: black;
-  }
+
